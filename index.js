@@ -12,29 +12,7 @@ restService.use(
 );
 
 
-//fadi addded for database connection
 
-const mysql = require('mysql');
-
-const con = mysql.createConnection({
-host: "us-cdbr-iron-east-01.cleardb.net",
-  user: "b0cb1ef1838d5e",
-  password: "a26fe726",
-});
-
-con.connect((err) => {
-  if(err){
-    console.log('Error connecting to Db');
-    return;
-  }
-  console.log('Connection established');
-});
-
-con.end((err) => {
-  // The connection is terminated gracefully
-  // Ensures all previously enqueued queries are still
-  // before sending a COM_QUIT packet to the MySQL server.
-});
 
 
 //
