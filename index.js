@@ -13,11 +13,8 @@ restService.use(
 
 //fadi addded for database connection
 
-const mysql = require('mysql');
-
 
 //
-
 
 
 restService.use(bodyParser.json());
