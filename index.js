@@ -6,8 +6,13 @@ const bodyParser = require("body-parser");
 const restService = express();
 
 
-var mysql = require('mysql');
+const mysql = require("mysql");
 
+const con = mysql.createConnection({
+host: "us-cdbr-iron-east-01.cleardb.net",
+  user: "b0cb1ef1838d5e",
+  password: "a26fe726",
+ database: "heroku_9e5a751b12d72df"});
 
 
 restService.use(
