@@ -24,11 +24,11 @@ var con = mysql.createConnection({
 });
 
 
-con.query(
-  'UPDATE home SET room = ? Where ID = ?',
-  ['room1', 1],
+//con.query(
+ // 'UPDATE home SET room = ? Where ID = ?',
+  //['room1', 1],
   
-  );
+ // );
 
 //
 
