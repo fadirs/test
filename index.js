@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const restService = express();
 
 
-var mysql = require("express");
+var mysql = require("mysql");
 
 
 
